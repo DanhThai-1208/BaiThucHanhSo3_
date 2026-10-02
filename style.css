@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c4c4c4; 
+    font-family: "Times New Roman", Times, serif;
+    padding: 30px;
+}
+
+
+.card-box {
+    background-color: #dcdcdc; 
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #a0a0a0;
+    border-radius: 20px;
+    padding: 25px 35px;
+}
+
+
+.tieu-de {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.duong-ke {
+    border: none;
+    border-top: 1px solid #888888;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+.cot-trai {
+    width: 42%;
+    float: left;
+}
+
+.item-tin {
+    font-size: 19px;
+    line-height: 1.35;
+    padding: 18px 0;
+    border-bottom: 1px dashed #777777; 
+}
+
+.item-tin.cuoi {
+    border-bottom: none; 
+}
+
+
+.cot-phai {
+    width: 54%;
+    float: right;
+}
+
+.cot-phai img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.tin-hot {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+
+.xoa-float {
+    clear: both;
+}
